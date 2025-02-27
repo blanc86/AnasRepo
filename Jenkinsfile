@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Abdulk-P/E-com-django.git'
+                git 'https://github.com/blanc86/AnasRepo.git'
             }
         }
         stage('Build Docker Image') {
