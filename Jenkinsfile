@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/blanc86/AnasRepo.git'
+                git url : "https://github.com/blanc86/AnasRepo.git", branch:"master"
             }
         }
         stage('Build Docker Image') {
